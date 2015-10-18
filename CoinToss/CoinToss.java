@@ -13,7 +13,7 @@ public class CoinToss
 	{
 		switch (1 + generator.nextInt(faces))
 		{
-			case 1: return "heads";
+			case 1: return "heads"; // il compilatore dà errore sui break dello switch in quanto preceduti da return
 			default: return "tails";
 		}
 	}
