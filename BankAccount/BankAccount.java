@@ -5,8 +5,8 @@
 public class BankAccount 
 {   
 	/**
-		Constructs a bank account with a zero balance.
-	*/
+	 *  Constructs a bank account with a zero balance.
+	 */
 	public BankAccount() 
 	{
 		balance = 0;
@@ -22,8 +22,8 @@ public class BankAccount
 	}
 
 	/**
-     * Deposits money into the bank account.
-	 * @param amount the amount to deposit
+     *  Deposits money into the bank account.
+	 *  @param amount the amount to deposit
 	 */
 	public void deposit(double amount)
 	{
@@ -32,8 +32,8 @@ public class BankAccount
 	}
 
 	/**
-     * Withdraws money from the bank account.
-	 * @param amount the amount to withdraw
+     *  Withdraws money from the bank account.
+	 *  @param amount the amount to withdraw
 	 */
 	public void withdraw(double amount)
 	{    
@@ -42,8 +42,8 @@ public class BankAccount
 	} 
 
 	/**
-     * Gets the current balance of the bank account.
-	 * @return the current balance
+     *  Gets the current balance of the bank account.
+	 *  @return the current balance
 	 */
 
 	public double getBalance()
