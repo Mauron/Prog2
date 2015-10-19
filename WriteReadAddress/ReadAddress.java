@@ -8,7 +8,7 @@ class ReadAddress
 		Scanner sf;
 		usFile = new File("address.txt");
 		sf = new Scanner(usFile);
-		while (sf.hasNextLine());
+		while (sf.hasNextLine())
 			System.out.println(sf.nextLine());
 		sf.close();
 	}
