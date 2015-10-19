@@ -7,18 +7,20 @@ public class BankAccount
 	/**
 	 *  Constructs a bank account with a zero balance.
 	 */
-	public BankAccount() 
+	public BankAccount(String customerName) 
 	{
 		balance = 0;
+		this.customerName = customerName;
 	}
 
 	/**
 	 *  Constructs a bank account with a given balance.
 	 *  @param initialBalance the initial balance
 	 */
-	public BankAccount(double initialBalance)
+	public BankAccount(double initialBalance, String customerName)
 	{
 		balance = initialBalance;
+		this.customerName = customerName;
 	}
 
 	/**
@@ -48,8 +50,9 @@ public class BankAccount
 
 	public double getBalance()
 	{
-		return balance;
+		return (customerName + balance);
 	} 
 
 	private double balance;
+	private String customerName;
 } 
