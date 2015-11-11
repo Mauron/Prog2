@@ -1,0 +1,10 @@
+Azienda
+CARATTERISTICHE
+azienda
+dipendente(cognome, nome, C.F., stipendio)
+
+COMPORTAMENTI
+ricerca dipendente per stipendio >= x
+ricerca dipendente per nome
+ricerca dipendente per stipendio x = stipendio minimo
+aumenta stipendio di tutti i dipendenti di y percentuale
