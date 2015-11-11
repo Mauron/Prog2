@@ -1,0 +1,14 @@
+serie televisive
+CARATTERISTICHE
+Serie televisiva(titolo, primo episodio)
+Episodio(titolo, trama, prossimo episodio)
+
+COMPORTAMENTI
+Episodio(stampa dati serie, confronta titoli episodi)
+Serie televisiva(stampa dati episodi, confronta titoli serie e primi episodi)
+___________________________
+contenitore
+CARATTERISTICHE
+
+
+COMPORTAMENTI
