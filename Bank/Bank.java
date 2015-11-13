@@ -13,14 +13,16 @@ public class Bank
 		// corpo costruttore
 	}
 	
-	public void addAccount(initialBalance, customerName)
+	public void addAccount(double initialBalance, String customerName)
 	{
 		// corpo del metodo modificatore
+		return;
 	}
 	
-	public void transfer(fromAccount, toAccount, amount)
+	public void transfer(BankAccount fromAccount,BankAccount toAccount, double amount)
 	{
 		// corpo del metodo modificatore
+		return;
 	}
 	
 	// variabili d'istanza

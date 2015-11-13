@@ -50,7 +50,7 @@ public class BankAccount
 
 	public double getBalance()
 	{
-		return (customerName + balance);
+		return balance;
 	} 
 
 	private double balance;
