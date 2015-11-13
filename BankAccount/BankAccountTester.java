@@ -9,7 +9,7 @@ public class BankAccountTester
 	 */
 	public static void main(String[] args)
 	{
-		BankAccount harrysChecking = new BankAccount();
+		BankAccount harrysChecking = new BankAccount("Harry");
 		harrysChecking.deposit(2000);
 		harrysChecking.withdraw(500);
 		System.out.println(harrysChecking.getBalance()); 
