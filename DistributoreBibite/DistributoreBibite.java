@@ -8,8 +8,8 @@
 */
 
 // importazione librerie o classi
-import java.util.Scanner;
-import javax.swing.JOptionPane;
+//import java.util.Scanner;
+//import javax.swing.JOptionPane;
 
 public class DistributoreBibite {
 	/**

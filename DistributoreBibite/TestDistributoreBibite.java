@@ -2,8 +2,8 @@
 	Classe test per la classe DistributoreBibite.
 */
 // importazione classi
-import java.util.Scanner;
-import javax.swing.JOptionPane;
+//import java.util.Scanner;
+//import javax.swing.JOptionPane;
 
 public class TestDistributoreBibite {
 	public static void main(String[] args) {
