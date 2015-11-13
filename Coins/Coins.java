@@ -53,6 +53,7 @@ public class Coins {
         System.out.printf("%n%n%s%5.2f%s%n%n", "Hai in totale ", total, " dollari.");
 		JOptionPane.showMessageDialog(null, "Hai in totale " + total + " dollari.");
 		JOptionPane.showMessageDialog(null, "Arrivederci!");
+		in.close();
 		System.exit(0); // uscita con codice di stato
    } //chiude il corpo del main
 } //chiude la definizione della classe
