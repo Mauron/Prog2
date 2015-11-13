@@ -13,8 +13,9 @@ public class DataSetTest
 			if (x.equalsIgnoreCase("fine") )
 				done = true;
 			else
-				ds.add(Double.parseDouble(x));
+				ds.add(null); // al posto di null va aggiunto un oggetto Measurable
 		}
 		System.out.println("la media e`:"+ ds.getAverage());
+		input.close();
 	}
 }
