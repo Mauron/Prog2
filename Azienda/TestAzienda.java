@@ -28,7 +28,7 @@ public class TestAzienda
 		out.println("Cerco i dipendenti con stipendio maggiore o uguale a 1500: ");
 		ArrayList<Dipendente> listagt1500 = unAzienda.lookForPayGreaterThan(1500.);
 		out.println(listagt1500);
-		out.printl("Ricerca del dipendente con lo stipendio minimo...");
+		out.println("Ricerca del dipendente con lo stipendio minimo...");
 		out.println(unAzienda.lookForMinimumPay());
 		// continua
 	}
