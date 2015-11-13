@@ -6,21 +6,23 @@ public class BankAccount
 {   
 	/**
 	 *  Constructs a bank account with a zero balance.
+	 *  @param aCustomerName the name of the owner of the bank account
 	 */
-	public BankAccount(String customerName) 
+	public BankAccount(String aCustomerName) 
 	{
 		balance = 0;
-		this.customerName = customerName;
+		customerName = aCustomerName;
 	}
 
 	/**
 	 *  Constructs a bank account with a given balance.
 	 *  @param initialBalance the initial balance
+	 *  @param aCustomerName the owner of the bank account
 	 */
-	public BankAccount(double initialBalance, String customerName)
+	public BankAccount(double initialBalance, String aCustomerName)
 	{
 		balance = initialBalance;
-		this.customerName = customerName;
+		customerName = aCustomerName;
 	}
 
 	/**
@@ -47,11 +49,19 @@ public class BankAccount
      *  Gets the current balance of the bank account.
 	 *  @return the current balance
 	 */
-
 	public double getBalance()
 	{
 		return balance;
-	} 
+	}
+	
+	/**
+	 * Gets the customer name for the bank account.
+	 * @return the customer name
+	 */
+	public String getCustomerName()
+	{
+		return customerName;
+	}
 
 	private double balance;
 	private String customerName;
