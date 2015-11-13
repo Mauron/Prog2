@@ -12,8 +12,8 @@ public class DataSet
 	{
 		sum = 0;
 		count = 0;
-		minimum = 0;
-		maximum=0;
+		minimum = null;
+		maximum = null;
 	}
 	
 	/**
